@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body style="background-color:blue;">
+
+        <div>
+            <form name="formulario" method="get" action="InsertarCliente">
+                <br>
+                <center>
+                    <h1>GIMNASIO</h1>
+                    <br><br>
+                    <h3>DATOS PERSONALES</h3>
+                        <table>
+                            <input type="number" name="cc" id="cc" placeholder="Cedula" required><br/>
+                            <input type="text" name="name" id="name" placeholder="Nombre" required><br/>
+                            <input type="text" name="lastname" id="lastname" placeholder="Apellido" required><br/>
+                            <input type="number" name="age" id="age" placeholder="Edad" required><br/>
+                            <input type="number" name="weight" id="weight" placeholder="Peso" required><br/>
+                            <input trype="number" name="height"id="height" placeholder="Altura" required><br/>
+                            <input type="radio" name="Sexo" id="Sexo" value="Mujer" required/>Mujer<br/>
+                            <input type="radio" name="Sexo" id="Sexo" value="Hombre" required/>Hombre<br/>
+                            <input type="submit" value="Calcular">
+                        </table>
+                </center>
+            </form>
+        </div>
+    </body>
+</html>
